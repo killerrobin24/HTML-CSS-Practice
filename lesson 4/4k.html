@@ -3,23 +3,33 @@
     <head>
         <title>HTML CSS Lesson 4k</title>
         <style> 
-            .one-button{
-                color: white;
+            .stretch-button{
                 background-color: green;
+                color: white;
+                border: none;
+                font-size: 18px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                cursor: pointer;
+
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-left: 10px;
+                margin-right: 10px;
+
+                transition: padding 0.15s, margin 0.15s;
             }
-            .two-button{
-                color: white;
-                background-color: green;
-            }
-            .three-button{
-                color: white;
-                background-color: green;
+            .stretch-button:hover{
+                padding-left: 25px;
+                padding-right: 25px;
+                margin-left: 0px;
+                margin-right: 0px;
             }
         </style>
     </head>
     <body>
-        <button class="one-button">one</button>
-        <button class="two-button">two</button>
-        <button class="three-button">three</button>
+        <button class="stretch-button">one</button>
+        <button class="stretch-button">two</button>
+        <button class="stretch-button">three</button>
     </body>
 </html>
