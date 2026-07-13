@@ -1,0 +1,18 @@
+.p{
+    font-family:Arial;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.title{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header{
+    margin-bottom: 20px;
+}
+.link{
+    color: rgb(58, 108, 199);
+}
